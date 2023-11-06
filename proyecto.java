@@ -109,7 +109,7 @@ public class proyecto {
         System.out.println("2. Borrar valores específicos");
 
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume new line
+        scanner.nextLine(); 
 
         switch (choice) {
             case 1:
