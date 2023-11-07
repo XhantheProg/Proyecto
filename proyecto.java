@@ -191,10 +191,10 @@ public class proyecto {
         scanner.nextLine();
 
         double area = 4 * Math.PI * Math.pow(radio, 2);
-        double perimetro = 0; // La esfera no tiene perímetro
+        
 
         System.out.println("Área de la esfera: " + area);
-        System.out.println("Perímetro de la esfera: " + perimetro);
+        
     }
 
     public static void calcularCono(Scanner scanner) {
